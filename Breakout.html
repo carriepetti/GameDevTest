@@ -7,12 +7,7 @@
     	* { padding: 0; margin: 0; }
     	canvas { background: #eee; display: block; margin: 0 auto; }
     </style>
-</head>
-<body>
-
-<canvas id="myCanvas" width="480" height="320"></canvas>
-
-<script>
+    <script>
 	var canvas = document.getElementById("myCanvas");
 	var ctx = canvas.getContext("2d");
 
@@ -33,7 +28,13 @@
 	ctx.strokeStyle = "rgba(0, 0, 255, 0.5)";
 	ctx.stroke();
 	ctx.closePath();
-</script>
+    </script>
+</head>
+<body>
+
+<canvas id="myCanvas" width="480" height="320"></canvas>
+
+
 
 </body>
 </html>
